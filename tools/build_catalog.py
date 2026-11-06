@@ -61,7 +61,7 @@ SONGS = [
 PLACEHOLDER_DESCRIPTIONS = {"all-things", "i-got-something", "psalm-23", "when-he-steps-in",
                             "wrong-door-right-man", "the-one-who-stayed"}
 SONG_CREDITS = {
-    "the-one-who-stayed": "Written by John P. Kennon",
+    "the-one-who-stayed": "Written and recorded by John P. Kennon · Also released by The Loners",
 }
 
 

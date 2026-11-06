@@ -107,7 +107,7 @@ page("index.html", "Higher Ground Ministries",
     <p class="verse">&ldquo;When my heart is overwhelmed: lead me to the rock that is higher than I.&rdquo;<cite>PSALM 61:2 &middot; KJV</cite></p>
     <div class="cta">
       <a class="btn" href="books.html">See the books</a>
-      <a class="btn ghost" href="music.html">Hear the music</a>
+      <a class="btn ghost" href="music.html">Hear the album</a>
     </div>
   </div>
   {RIDGES}
@@ -117,11 +117,11 @@ page("index.html", "Higher Ground Ministries",
   <div class="wrap">
     <div class="head-row">
       <div class="head">
-        <p class="eyebrow">Music &middot; Original songs</p>
-        <h2 id="music-h">Gospel with a Southern road under it</h2>
-        <p>Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift.</p>
+        <p class="eyebrow">The album &middot; John Kennon</p>
+        <h2 id="music-h">We Will Overcome</h2>
+        <p>Gospel with a Southern road under it: Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift.</p>
       </div>
-      <a class="more" href="music.html">All songs</a>
+      <a class="more" href="music.html">Hear the album</a>
     </div>
     <div data-songs="featured"></div>
     <ul class="songs compact" data-songs="teaser"></ul>
@@ -172,13 +172,13 @@ page("books.html", "Books by John P. Kennon",
 </section>
 </main>""")
 
-page("music.html", "Music by John Kennon",
-     "Original gospel, country and Southern rock songs by John Kennon. Listen to previews.", f"""
+page("music.html", "We Will Overcome",
+     "We Will Overcome, the album by John Kennon: original gospel, country and Southern rock songs. Listen to previews.", f"""
 <header class="hero page-hero">
   <div class="wrap">
-    <p class="sub">Music &middot; Original songs</p>
-    <h1>Gospel with <em>a Southern road</em></h1>
-    <p class="lead">Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift. Each song has a one-minute preview.</p>
+    <p class="sub">The album &middot; John Kennon</p>
+    <h1>We Will <em>Overcome</em></h1>
+    <p class="lead">Gospel with a Southern road under it: Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift. Each song has a one-minute preview.</p>
   </div>
   {RIDGES}
 </header>
@@ -186,6 +186,7 @@ page("music.html", "Music by John Kennon",
 <section class="band">
   <div class="wrap">
     <div data-songs="featured"></div>
+    <h2 class="group-title">We Will Overcome &middot; Full track list</h2>
     <ul class="songs" data-songs="list"></ul>
   </div>
 </section>
