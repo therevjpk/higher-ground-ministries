@@ -8,8 +8,8 @@
    "kind": "Book draft",
    "group": "full",
    "description": "Follow the gospel from Calvary into the lives of the first believers. Through the conversion accounts in Acts, John P. Kennon explores repentance, baptism in Jesus’ name, and the gift of the Holy Ghost as a consistent apostolic pattern of the new birth.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/after-the-cross.jpg",
+   "sample": "samples/after-the-cross.pdf",
    "purchase_url": ""
   },
   {
@@ -20,7 +20,7 @@
    "group": "full",
    "description": "A literary and theological story of faithfulness, surrender, and the life that follows. As Elior confronts the limits of self-rule, the journey asks what it means to remain dependent on God rather than merely appearing righteous.",
    "cover": "img/books/conquering-leviathan.jpg",
-   "sample": null,
+   "sample": "samples/conquering-leviathan.pdf",
    "purchase_url": ""
   },
   {
@@ -31,7 +31,7 @@
    "group": "full",
    "description": "From the mountains of Moab to the Upper Room, the story of Balak and Balaam exposes the limits of religious bargaining. This journey explores the unchanging Word of God and the revelation that leads a heart into obedient faith.",
    "cover": "img/books/seven-altars.jpg",
-   "sample": null,
+   "sample": "samples/seven-altars.pdf",
    "purchase_url": ""
   },
   {
@@ -42,7 +42,7 @@
    "group": "full",
    "description": "A devotional journey through the harvest field of faith, grace, and spiritual growth. Drawing on the image of humanity as God’s field, these reflections invite readers to become fruitful laborers who nurture the lives entrusted to them.",
    "cover": "img/books/vision-of-the-harvest.jpg",
-   "sample": null,
+   "sample": "samples/vision-of-the-harvest.pdf",
    "purchase_url": ""
   },
   {
@@ -53,7 +53,7 @@
    "group": "full",
    "description": "How does God prepare a believer for the work He calls them to do? Through biblical teaching and the journey of Ephraim and Silas, this book explores spiritual maturity, obedience, and the relationship between preparation and divine assignment.",
    "cover": "img/books/position-and-placement.jpg",
-   "sample": null,
+   "sample": "samples/position-and-placement.pdf",
    "purchase_url": ""
   },
   {
@@ -64,7 +64,7 @@
    "group": "full",
    "description": "An honest account of a family’s journey through sudden loss, grief, forgiveness, and faith. John P. Kennon reflects on learning to trust God when life’s hardest questions remain unanswered and grace must be found one day at a time.",
    "cover": "img/books/untimely.jpg",
-   "sample": null,
+   "sample": "samples/untimely.pdf",
    "purchase_url": ""
   },
   {
@@ -75,7 +75,7 @@
    "group": "full",
    "description": "Through the story of Exodus, this work explores the faithfulness of God’s covenant amid oppression, uncertainty, and deliverance. Readers are invited to trust the One whose promises stand when circumstances say otherwise.",
    "cover": "img/books/line-in-the-sand.jpg",
-   "sample": null,
+   "sample": "samples/line-in-the-sand.pdf",
    "purchase_url": ""
   },
   {
@@ -85,8 +85,8 @@
    "kind": "Unified manuscript",
    "group": "full",
    "description": "A unified manuscript tracing the long reach of influence, rebellion, repentance, and redemption. Through Israel’s kings and the encounter at Samaria’s well, it asks how choices become a legacy and how revelation can change a generation.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/a-prophets-tale.jpg",
+   "sample": "samples/a-prophets-tale.pdf",
    "purchase_url": ""
   },
   {
@@ -96,8 +96,8 @@
    "kind": "Teaching booklet",
    "group": "short",
    "description": "When neglected boundaries become difficult to see, confusion begins to feel normal. Drawing from Ezekiel and the believer’s priesthood, this teaching calls readers toward clear discernment, personal consecration, and obedience shaped by conviction and grace.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/when-the-lines-grow-gray.jpg",
+   "sample": "samples/when-the-lines-grow-gray.pdf",
    "purchase_url": ""
   },
   {
@@ -107,8 +107,8 @@
    "kind": "Companion workbook",
    "group": "short",
    "description": "Guided notes, Scripture observations, and personal application help readers slow down, examine the lesson, and practice grace-led discernment in everyday life.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/lines-gray-workbook.jpg",
+   "sample": "samples/lines-gray-workbook.pdf",
    "purchase_url": ""
   },
   {
@@ -119,7 +119,7 @@
    "group": "short",
    "description": "At Jacob’s well, one encounter reaches beyond a woman’s shame into the wounded history of Samaria. This teaching follows the promise of living water toward the revival of Acts 8 and the hope that broken places can become places of restoration.",
    "cover": "img/books/broken-at-the-well.jpg",
-   "sample": null,
+   "sample": "samples/broken-at-the-well.pdf",
    "purchase_url": ""
   },
   {
@@ -130,7 +130,7 @@
    "group": "short",
    "description": "For the believer who has a hunger to pray but struggles to find the words, this practical teaching explores prayer as relationship and response. Scripture, reflection, and personal testimony point toward a life led by faith and the Holy Ghost.",
    "cover": "img/books/lord-teach-me-to-pray.jpg",
-   "sample": null,
+   "sample": "samples/lord-teach-me-to-pray.pdf",
    "purchase_url": ""
   },
   {
@@ -140,8 +140,8 @@
    "kind": "Prayer compilation",
    "group": "short",
    "description": "A collection of Scripture-rooted prayers and declarations for growth in grace, faith, understanding, and Kingdom service. Designed to give direction to personal prayer and help the reader respond to the Word.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/prayer-journal.jpg",
+   "sample": "samples/prayer-journal.pdf",
    "purchase_url": ""
   },
   {
@@ -151,8 +151,8 @@
    "kind": "Study handout and journal",
    "group": "short",
    "description": "Explore the Lord’s Prayer through its themes of relationship, worship, surrender, provision, forgiveness, and deliverance. Reflection prompts help turn each subject into a personal conversation with God.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/lords-prayer-journal.jpg",
+   "sample": "samples/lords-prayer-journal.pdf",
    "purchase_url": ""
   },
   {
@@ -162,8 +162,8 @@
    "kind": "Teaching booklet",
    "group": "short",
    "description": "When anxiety carries the memory of broken trust, the faithfulness of God offers a place to begin again. This teaching reflects on His daily provision and the invitation to entrust tomorrow to Him.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/learning-to-trust-again.jpg",
+   "sample": "samples/learning-to-trust-again.pdf",
    "purchase_url": ""
   },
   {
@@ -173,8 +173,8 @@
    "kind": "Study workbook draft",
    "group": "short",
    "description": "A practical study for couples who want to talk honestly and grow together. Scripture, conversation starters, and shared exercises address money, time, responsibility, and the everyday choices that shape a marriage.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/marriage-and-communication.jpg",
+   "sample": "samples/marriage-and-communication.pdf",
    "purchase_url": ""
   },
   {
@@ -184,8 +184,8 @@
    "kind": "Theological booklet",
    "group": "short",
    "description": "A biblical case for the continuing work of the Holy Ghost in the church. This booklet examines Pentecost, spiritual gifts, and the promise extended to believers beyond the first generation of apostles.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/still-speaking.jpg",
+   "sample": "samples/still-speaking.pdf",
    "purchase_url": ""
   },
   {
@@ -196,7 +196,7 @@
    "group": "short",
    "description": "The Word, the harvest, and the shield of faith become pictures of a believer equipped for service. This teaching connects spiritual readiness, holiness, and obedience with the work of reaching and strengthening people.",
    "cover": "img/books/sword-sickle-shield.jpg",
-   "sample": null,
+   "sample": "samples/sword-sickle-shield.pdf",
    "purchase_url": ""
   },
   {
@@ -207,7 +207,7 @@
    "group": "short",
    "description": "Drawing from Isaiah 35, this message looks for the life God brings to barren places. It offers encouragement to strengthen weak hands, refuse fear, and believe that a wilderness can yet blossom.",
    "cover": "img/books/bloom-in-the-battle.jpg",
-   "sample": null,
+   "sample": "samples/bloom-in-the-battle.pdf",
    "purchase_url": ""
   },
   {
@@ -218,7 +218,7 @@
    "group": "short",
    "description": "Sonship, parenthood, and the responsibility of spiritual legacy form the three mantles explored in this teaching. Its call is to grow in wisdom, serve faithfully in small things, and carry each season with love.",
    "cover": "img/books/three-mantles.jpg",
-   "sample": null,
+   "sample": "samples/three-mantles.pdf",
    "purchase_url": ""
   },
   {
@@ -228,8 +228,8 @@
    "kind": "Children’s teaching draft",
    "group": "short",
    "description": "An introductory teaching draft that brings the subject of baptism and the new birth to younger readers. Its questions and explanations are intended to help children begin exploring the biblical message.",
-   "cover": null,
-   "sample": null,
+   "cover": "img/books/baptism-for-kids.jpg",
+   "sample": "samples/baptism-for-kids.pdf",
    "purchase_url": ""
   },
   {
@@ -240,7 +240,7 @@
    "group": "short",
    "description": "Spiritual exhaustion can reveal where self-reliance has replaced dependence on Christ. This teaching explores grace, humility, and the strength God supplies when believers learn to abide in Him.",
    "cover": "img/books/source-and-supply.jpg",
-   "sample": null,
+   "sample": "samples/source-and-supply.pdf",
    "purchase_url": ""
   },
   {
@@ -251,7 +251,7 @@
    "group": "short",
    "description": "The Beatitudes open a path toward understanding surrender, suffering, and hope. This teaching considers how a broken life can still carry God’s light and how grace gives purpose to the pieces.",
    "cover": "img/books/blessings-in-brokenness.jpg",
-   "sample": null,
+   "sample": "samples/blessings-in-brokenness.pdf",
    "purchase_url": ""
   },
   {
@@ -262,7 +262,7 @@
    "group": "short",
    "description": "A reflection on Deuteronomy 32 and the far-reaching consequences of rejection, unity, and covenant faithfulness. This teaching urges care with the people and influences that shape a shared spiritual future.",
    "cover": "img/books/be-careful.jpg",
-   "sample": null,
+   "sample": "samples/be-careful.pdf",
    "purchase_url": ""
   }
  ],
@@ -272,7 +272,7 @@
    "title": "Higher Ground",
    "description": "When the storms of life close in, an unshakable anchor holds. Higher Ground lifts the eyes toward the mercy of Jesus and the promise of seeing Him face to face.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/higher-ground.jpg",
    "preview": "audio/higher-ground.mp3",
    "featured": true,
    "listen_url": "",
@@ -283,7 +283,7 @@
    "title": "We Will Overcome",
    "description": "A bold gospel declaration of overcoming faith through the blood of the Lamb, giving the church words of courage, testimony, and praise.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/we-will-overcome.jpg",
    "preview": "audio/we-will-overcome.mp3",
    "featured": false,
    "listen_url": "",
@@ -294,7 +294,7 @@
    "title": "Still I Rise",
    "description": "A declaration of faith that survives fire, flood, and the darkest night. With grace holding on through every scar, the song rises toward victory in Jesus’ name and the hope of heaven.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/still-i-rise.jpg",
    "preview": "audio/still-i-rise.mp3",
    "featured": false,
    "listen_url": "",
@@ -305,7 +305,7 @@
    "title": "Living by Faith",
    "description": "A declaration of trust beyond what the eyes can see. Through trials and uncertain days, the hand of the Lord remains steady and His promises give reason to keep walking.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/living-by-faith.jpg",
    "preview": "audio/living-by-faith.mp3",
    "featured": false,
    "listen_url": "",
@@ -316,7 +316,7 @@
    "title": "A Beautiful Redemption",
    "description": "A testimony of brokenness met by grace, celebrating the hope and restoration found in Jesus.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/a-beautiful-redemption.jpg",
    "preview": "audio/a-beautiful-redemption.mp3",
    "featured": false,
    "listen_url": "",
@@ -327,7 +327,7 @@
    "title": "From Trouble to Testimony",
    "description": "A declaration of faith formed through pressure and waiting, tracing the road from struggle to a testimony of what God has done.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/from-trouble-to-testimony.jpg",
    "preview": "audio/from-trouble-to-testimony.mp3",
    "featured": false,
    "listen_url": "",
@@ -338,7 +338,7 @@
    "title": "More Than Conquerors",
    "description": "Rooted in Romans 8, this song declares victory through the love of Christ and the assurance that nothing can separate His people from Him.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/more-than-conquerors.jpg",
    "preview": "audio/more-than-conquerors.mp3",
    "featured": false,
    "listen_url": "",
@@ -349,7 +349,7 @@
    "title": "Let the Redeemed Say So",
    "description": "Drawing on Psalm 107, this song gives voice to people brought out of wandering, bondage, sickness, and storms by the God who answers their cries.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/let-the-redeemed-say-so.jpg",
    "preview": "audio/let-the-redeemed-say-so.mp3",
    "featured": false,
    "listen_url": "",
@@ -360,7 +360,7 @@
    "title": "I’ve Been Redeemed",
    "description": "A joyful testimony of sins washed away, life made new, and freedom through the blood of the Lamb, looking ahead to the promised land.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/ive-been-redeemed.jpg",
    "preview": "audio/ive-been-redeemed.mp3",
    "featured": false,
    "listen_url": "",
@@ -371,7 +371,7 @@
    "title": "I Am a Soldier",
    "description": "A declaration of steadfast faith in the Lord’s army, grounded in His Word, redeemed by His blood, and determined to remain faithful.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/i-am-a-soldier.jpg",
    "preview": "audio/i-am-a-soldier.mp3",
    "featured": false,
    "listen_url": "",
@@ -382,7 +382,7 @@
    "title": "I’ve Got Too Much to Lose",
    "description": "A determined declaration that the grace, forgiveness, and victories already received are too precious to abandon. The road continues forward in faith.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/ive-got-too-much-to-lose.jpg",
    "preview": "audio/ive-got-too-much-to-lose.mp3",
    "featured": false,
    "listen_url": "",
@@ -393,7 +393,7 @@
    "title": "Closer to Your Throne",
    "description": "A prayer for the nearness of God above everything the world can offer, finding renewed faith and freedom from fear in His presence.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/closer-to-your-throne.jpg",
    "preview": "audio/closer-to-your-throne.mp3",
    "featured": false,
    "listen_url": "",
@@ -404,7 +404,7 @@
    "title": "Fallow Ground",
    "description": "A prayer for God to break the hardened places of the heart, plant fresh faith, and bring life to ground that has waited through a difficult season.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/fallow-ground.jpg",
    "preview": "audio/fallow-ground.mp3",
    "featured": false,
    "listen_url": "",
@@ -415,7 +415,7 @@
    "title": "Picking Up the Pieces",
    "description": "A testimony of shattered dreams met by restoring grace, finding that the broken pieces of a life can become the beginning of something new in God’s hands.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/picking-up-the-pieces.jpg",
    "preview": "audio/picking-up-the-pieces.mp3",
    "featured": false,
    "listen_url": "",
@@ -426,7 +426,7 @@
    "title": "Back Home",
    "description": "After rejection and broken belonging, an open door becomes a picture of grace. Back Home tells of finding welcome, acceptance, and a place where your name is still known.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/back-home.jpg",
    "preview": "audio/back-home.mp3",
    "featured": false,
    "listen_url": "",
@@ -437,7 +437,7 @@
    "title": "Porch Light On",
    "description": "A father’s love keeps the door open without demanding explanations. This country ballad offers forgiveness, belonging, and the quiet assurance that home is still waiting.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/porch-light-on.jpg",
    "preview": "audio/porch-light-on.mp3",
    "featured": false,
    "listen_url": "",
@@ -448,7 +448,7 @@
    "title": "Angels Wings",
    "description": "A tender song of grief, remembrance, and the hope of reunion in heaven, written to bring comfort to hearts carrying loss.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/angels-wings.jpg",
    "preview": "audio/angels-wings.mp3",
    "featured": false,
    "listen_url": "",
@@ -459,7 +459,7 @@
    "title": "I Hope You’re There",
    "description": "A heartfelt look toward heaven, the Savior, and a home beyond sorrow, carrying the hope that those we love will be there too.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/i-hope-youre-there.jpg",
    "preview": "audio/i-hope-youre-there.mp3",
    "featured": false,
    "listen_url": "",
@@ -470,7 +470,7 @@
    "title": "Psalm 23",
    "description": "",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/psalm-23.jpg",
    "preview": "audio/psalm-23.mp3",
    "featured": false,
    "listen_url": "",
@@ -481,7 +481,7 @@
    "title": "When He Steps In",
    "description": "",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/when-he-steps-in.jpg",
    "preview": "audio/when-he-steps-in.mp3",
    "featured": false,
    "listen_url": "",
@@ -492,7 +492,7 @@
    "title": "All Things",
    "description": "",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/all-things.jpg",
    "preview": "audio/all-things.mp3",
    "featured": false,
    "listen_url": "",
@@ -503,7 +503,7 @@
    "title": "I Got Something",
    "description": "",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/i-got-something.jpg",
    "preview": "audio/i-got-something.mp3",
    "featured": false,
    "listen_url": "",
@@ -514,7 +514,7 @@
    "title": "Sunrise",
    "description": "A song of love and second chances, holding to the belief that every sunset makes room for a sunrise and that a life shared in love is worth believing in.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/sunrise.jpg",
    "preview": "audio/sunrise.mp3",
    "featured": false,
    "listen_url": "",
@@ -525,7 +525,7 @@
    "title": "Sounds Like Livin’",
    "description": "A country song about love and the everyday moments that make life worth living.",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/sounds-like-livin.jpg",
    "preview": "audio/sounds-like-livin.mp3",
    "featured": false,
    "listen_url": "",
@@ -536,7 +536,7 @@
    "title": "The One Who Stayed",
    "description": "",
    "credit": "Written by John P. Kennon",
-   "cover": null,
+   "cover": "img/songs/the-one-who-stayed.jpg",
    "preview": "audio/the-one-who-stayed.mp3",
    "featured": false,
    "listen_url": "",
@@ -547,7 +547,7 @@
    "title": "Wrong Door, Right Man",
    "description": "",
    "credit": "",
-   "cover": null,
+   "cover": "img/songs/wrong-door-right-man.jpg",
    "preview": "audio/wrong-door-right-man.mp3",
    "featured": false,
    "listen_url": "",
