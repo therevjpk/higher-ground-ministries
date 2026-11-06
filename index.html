@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Books and original gospel music from Bro. John Kennon and Higher Ground Ministries.">
+<meta property="og:title" content="Higher Ground Ministries">
+<meta property="og:description" content="Books and original gospel music from Bro. John Kennon.">
+<meta property="og:url" content="https://highergroundministries.church/">
+<link rel="canonical" href="https://highergroundministries.church/">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Higher Ground Ministries</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: dusk-to-dawn ridge hero, then alternating light bands — Books, Music, About, Stay in Touch. */
+:root{
+  --bg:#eef1f4;          /* morning-sky grey */
+  --surface:#ffffff;
+  --ink:#1b2230;
+  --muted:#5a6476;
+  --line:#d3d9e2;
+  --gold:#b7791f;        /* sunrise brass */
+  --gold-soft:#f3e3c4;
+  /* hero is always dusk, both themes */
+  --sky-top:#151b2d; --sky-mid:#2b3354; --sky-glow:#d9893a;
+  --ridge1:#3a4366; --ridge2:#252c47; --ridge3:#141a2b;
+  --hero-ink:#f5efe3; --hero-muted:#c3c6d4;
+  --f-display:"Big Shoulders Display","Oswald","Arial Narrow",Impact,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151f;--surface:#1a2030;--ink:#ebe7df;--muted:#9aa2b3;--line:#2c3446;--gold:#e0a54d;--gold-soft:#3a2f1c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11151f;--surface:#1a2030;--ink:#ebe7df;--muted:#9aa2b3;--line:#2c3446;--gold:#e0a54d;--gold-soft:#3a2f1c;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--sky-top)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);font-weight:800;line-height:1.02;letter-spacing:.01em;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+.eyebrow{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--sky-top) 92%,transparent);backdrop-filter:blur(8px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px;flex-wrap:wrap}
+.mark{font-family:var(--f-display);font-weight:900;font-size:1.35rem;letter-spacing:.06em;text-transform:uppercase;color:var(--hero-ink);text-decoration:none}
+.mark span{color:var(--sky-glow)}
+.nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+.nav ul a{color:var(--hero-muted);text-decoration:none;font-family:var(--f-mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase}
+.nav ul a:hover{color:var(--hero-ink)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;color:var(--hero-ink);
+  background:radial-gradient(120% 70% at 70% 100%,var(--sky-glow) 0%,transparent 55%),linear-gradient(180deg,var(--sky-top) 0%,var(--sky-mid) 70%,#6b4a3a 100%)}
+.hero .wrap{position:relative;z-index:2;padding-block:clamp(64px,11vw,128px) clamp(150px,20vw,230px)}
+.hero h1{font-size:clamp(3.4rem,11vw,8.5rem);font-weight:900;text-transform:uppercase;letter-spacing:.01em}
+.hero h1 em{font-style:normal;color:var(--sky-glow);display:block}
+.hero .sub{font-family:var(--f-mono);font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;color:var(--hero-muted);margin-top:18px}
+.hero .verse{max-width:34rem;margin-top:28px;font-size:1.2rem;font-style:italic;color:var(--hero-ink)}
+.hero .verse cite{display:block;font-style:normal;font-family:var(--f-mono);font-size:.75rem;letter-spacing:.12em;color:var(--hero-muted);margin-top:6px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+.btn{display:inline-block;font-family:var(--f-mono);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:13px 20px;border-radius:2px;border:1.5px solid var(--sky-glow);color:var(--sky-top);background:var(--sky-glow);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--hero-ink);border-color:var(--hero-muted)}
+.btn:hover{filter:brightness(1.08)}
+.ridges{position:absolute;inset:auto 0 0 0;width:100%;height:auto;z-index:1;display:block}
+.ridges path:nth-child(1){fill:var(--ridge1)} .ridges path:nth-child(2){fill:var(--ridge2)} .ridges path:nth-child(3){fill:var(--ridge3)}
+.ridges circle{fill:var(--sky-glow);opacity:.9}
+
+/* sections */
+section.band{padding-block:clamp(56px,8vw,96px)}
+.head{display:grid;gap:10px;margin-bottom:36px;max-width:40rem}
+.head h2{font-size:clamp(2.4rem,6vw,3.8rem);text-transform:uppercase}
+.head p{color:var(--muted)}
+
+/* books */
+.books{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:28px}
+.book{display:grid;grid-template-columns:110px 1fr;gap:20px;align-items:start}
+.cover{aspect-ratio:2/3;max-width:100%;border-radius:2px 4px 4px 2px;padding:12px 10px;display:flex;flex-direction:column;justify-content:space-between;
+  box-shadow:inset 6px 0 0 rgba(0,0,0,.18),0 10px 24px -12px rgba(0,0,0,.5);color:#f5efe3}
+.cover b{font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:1.05rem;line-height:.98}
+.cover small{font-family:var(--f-mono);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
+.c1{background:linear-gradient(160deg,#3a4366,#141a2b)} .c2{background:linear-gradient(160deg,#a4642a,#5a3216)} .c3{background:linear-gradient(160deg,#5a1f1f,#1d1010)}
+.book h3{font-size:1.7rem;text-transform:uppercase}
+.book .meta{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;color:var(--muted);margin:6px 0 10px}
+.book p.desc{font-size:1rem}
+.status{display:inline-block;margin-top:12px;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px;border-radius:2px;background:var(--gold-soft);color:var(--ink)}
+.status.dev{background:transparent;border:1px dashed var(--line);color:var(--muted)}
+.quote{font-style:italic;margin-top:8px;color:var(--ink)}
+
+/* music */
+.music{background:var(--surface);border-block:1px solid var(--line)}
+.tracks{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.track{display:grid;grid-template-columns:3rem minmax(0,1fr) auto;gap:16px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line)}
+.track .n{font-family:var(--f-mono);font-size:.85rem;color:var(--gold);font-variant-numeric:tabular-nums}
+.track h3{font-size:1.9rem;text-transform:uppercase}
+.track .aka{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);letter-spacing:.06em}
+.track p{color:var(--muted);font-size:.98rem;margin-top:6px;max-width:38rem}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.tags span{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.06em;padding:3px 8px;border:1px solid var(--line);border-radius:2px;color:var(--muted)}
+.track .state{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.listen-note{margin-top:22px;color:var(--muted);font-size:.95rem}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:clamp(28px,5vw,64px);align-items:start}
+.portrait{aspect-ratio:4/5;max-width:100%;border:1.5px dashed var(--line);border-radius:2px;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);font-family:var(--f-mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;background:var(--surface)}
+.about-body{display:grid;gap:16px;max-width:38rem}
+.about-body h2{font-size:clamp(2.2rem,5vw,3.2rem);text-transform:uppercase}
+.sig{font-family:var(--f-display);font-weight:600;font-size:1.3rem;letter-spacing:.04em;color:var(--gold)}
+
+/* signup */
+.signup{background:var(--sky-top);color:var(--hero-ink)}
+.signup .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:center}
+.signup h2{font-size:clamp(2.2rem,5vw,3.4rem);text-transform:uppercase}
+.signup p{color:var(--hero-muted);margin-top:10px}
+form{display:flex;gap:10px;flex-wrap:wrap}
+label.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+input[type=email]{flex:1 1 220px;min-width:0;font:inherit;font-size:1rem;padding:12px 14px;border-radius:2px;border:1.5px solid var(--ridge1);background:var(--ridge3);color:var(--hero-ink)}
+.ok{flex-basis:100%;font-family:var(--f-mono);font-size:.78rem;color:var(--sky-glow)}
+footer{background:var(--ridge3);color:var(--hero-muted);font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:22px}
+
+@media (max-width:720px){
+  .about,.signup .wrap{grid-template-columns:1fr}
+  .portrait{max-width:280px}
+  .track{grid-template-columns:2.2rem minmax(0,1fr)}
+  .track .state{grid-column:2}
+  .book{grid-template-columns:90px 1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .ridges circle{animation:rise 2.4s ease-out both}
+  @keyframes rise{from{transform:translateY(40px)}to{transform:none}}
+}
+</style>
+
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="mark" href="#top">Higher <span>Ground</span></a>
+    <ul>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#updates">Updates</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="sub">Higher Ground Ministries &middot; Bro. John Kennon</p>
+    <h1>Books &amp; songs <em>for the climb</em></h1>
+    <p class="verse">&ldquo;When my heart is overwhelmed: lead me to the rock that is higher than I.&rdquo;<cite>PSALM 61:2 &middot; KJV</cite></p>
+    <div class="cta">
+      <a class="btn" href="#books">See the books</a>
+      <a class="btn ghost" href="#music">Hear the music</a>
+    </div>
+  </div>
+  <svg class="ridges" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true">
+    <circle cx="1040" cy="190" r="70"/>
+    <path d="M0 170 L180 120 L360 150 L560 80 L760 140 L980 95 L1180 150 L1440 110 L1440 260 L0 260Z"/>
+    <path d="M0 210 L220 160 L420 200 L640 140 L860 195 L1080 150 L1300 200 L1440 175 L1440 260 L0 260Z"/>
+    <path d="M0 245 L300 205 L600 240 L900 210 L1200 240 L1440 220 L1440 260 L0 260Z"/>
+  </svg>
+</header>
+
+<main>
+<section class="band" id="books" aria-labelledby="books-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Books &middot; John P. Kennon</p>
+      <h2 id="books-h">Written from the valley floor</h2>
+      <p>Scripture, testimony, and the kind of family-table stories that teach you something on the way home.</p>
+    </div>
+    <div class="books">
+      <article class="book">
+        <div class="cover c1"><small>John P. Kennon</small><b>The Blessings in Brokenness</b></div>
+        <div>
+          <h3>The Blessings in Brokenness</h3>
+          <p class="meta">BOOK &middot; FAITH &amp; TESTIMONY</p>
+          <p class="desc">A whole life, a tragedy, and the slow work of God rebuilding what was broken. Told through Scripture, testimony, and warm, ordinary family moments that carry the lessons.</p>
+          <span class="status">Coming soon</span>
+        </div>
+      </article>
+      <article class="book">
+        <div class="cover c2"><small>52 weeks</small><b>A Vision of the Harvest</b></div>
+        <div>
+          <h3>A Vision of the Harvest</h3>
+          <p class="meta">DEVOTIONAL &middot; 52 WEEKS</p>
+          <p class="desc">A year of weekly devotions, opening with the harvest-field vision that shaped Bro. Kennon's calling.</p>
+          <span class="status">Coming soon</span>
+        </div>
+      </article>
+      <article class="book">
+        <div class="cover c3"><small>In development</small><b>Seven Altars</b></div>
+        <div>
+          <h3>Seven Altars Can't Buy One Word From God</h3>
+          <p class="meta">BIBLE STUDY &middot; IN DEVELOPMENT</p>
+          <p class="quote">Religion built the altars. Revelation brought the fire.</p>
+          <span class="status dev">In development</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band music" id="music" aria-labelledby="music-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Music &middot; Original songs</p>
+      <h2 id="music-h">Gospel with a Southern road under it</h2>
+      <p>Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift.</p>
+    </div>
+    <ol class="tracks">
+      <li class="track">
+        <span class="n">01</span>
+        <div>
+          <h3>Chosen Road</h3>
+          <span class="aka">ALSO KNOWN AS &ldquo;DOWN AN OPEN ROAD&rdquo;</span>
+          <p>Opens on a three-part a cappella harmony, then the band kicks in. A song about keeping faith and steady feet on the road God chose, even when it winds.</p>
+          <div class="tags"><span>Southern rock</span><span>~104 BPM</span><span>Key-change lift</span></div>
+        </div>
+        <span class="state">In production</span>
+      </li>
+      <li class="track">
+        <span class="n">02</span>
+        <div>
+          <h3>Living by Faith</h3>
+          <p>Faith over sight, trials that lead toward a crown, and freedom by the blood of the Lamb. God stays faithful through every valley.</p>
+          <div class="tags"><span>Gospel</span><span>Worship</span></div>
+        </div>
+        <span class="state">In production</span>
+      </li>
+      <li class="track">
+        <span class="n">03</span>
+        <div>
+          <h3>Things Gotta Change</h3>
+          <div class="tags"><span>Original</span></div>
+        </div>
+        <span class="state">Release TBA</span>
+      </li>
+      <li class="track">
+        <span class="n">04</span>
+        <div>
+          <h3>The One Who Stayed</h3>
+          <div class="tags"><span>Original</span></div>
+        </div>
+        <span class="state">Release TBA</span>
+      </li>
+    </ol>
+    <p class="listen-note">Streaming links will appear here as each song releases.</p>
+  </div>
+</section>
+
+<section class="band" id="about" aria-labelledby="about-h">
+  <div class="wrap about">
+    <div class="portrait">Photo of<br>Bro. John Kennon</div>
+    <div class="about-body">
+      <p class="eyebrow">About</p>
+      <h2 id="about-h">Preacher. Writer. Songwriter.</h2>
+      <p>Bro. John Kennon is a United Pentecostal minister who writes the way he preaches: straight from Scripture, honest about the hard places, and certain that God rebuilds what life tears down.</p>
+      <p>His songs pull from gospel, country, and Southern rock, built on strong vocal harmony. His books carry the same message in a quieter voice, through testimony and the everyday moments where faith gets tested.</p>
+      <p>Higher Ground Ministries is the home for all of it.</p>
+      <p class="sig">Bro. John Kennon</p>
+    </div>
+  </div>
+</section>
+
+<section class="band signup" id="updates" aria-labelledby="up-h">
+  <div class="wrap">
+    <div>
+      <h2 id="up-h">Be first to know</h2>
+      <p>Book release dates, new songs, and the occasional word of encouragement. No clutter.</p>
+    </div>
+    <form id="signup" novalidate>
+      <label class="sr" for="email">Email address</label>
+      <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+      <button class="btn" type="submit">Sign me up</button>
+      <p class="ok" id="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Higher Ground Ministries</span>
+    <span>highergroundministries.church</span>
+    <span>Bro. John Kennon &middot; John P. Kennon</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('signup').addEventListener('submit',function(e){
+  e.preventDefault();
+  var em=document.getElementById('email'), m=document.getElementById('msg');
+  if(!em.value || !em.checkValidity()){ m.textContent='Enter a valid email address.'; em.focus(); return; }
+  m.textContent='Preview only. Signups connect to your email list at launch.';
+});
+</script>
+
+</body>
+</html>
