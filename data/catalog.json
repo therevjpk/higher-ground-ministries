@@ -264,6 +264,18 @@
    "cover": "img/books/be-careful.jpg",
    "sample": "samples/be-careful.pdf",
    "purchase_url": ""
+  },
+  {
+   "id": "letter-to-the-girl",
+   "title": "A Letter to the Girl I Used to Be",
+   "subtitle": "",
+   "author": "Grace Stacks",
+   "kind": "Book draft",
+   "group": "family",
+   "description": "Grace Stacks writes to her younger self: the girl who felt things deeply, doubted her worth and her faith, and carried more than she could explain. It is for anyone learning who they are while carrying a story heavier than they expected, and a reminder that what shaped you never disqualified you from being loved or heard.",
+   "cover": "img/books/letter-to-the-girl.jpg",
+   "sample": "samples/letter-to-the-girl.pdf",
+   "purchase_url": ""
   }
  ],
  "songs": [

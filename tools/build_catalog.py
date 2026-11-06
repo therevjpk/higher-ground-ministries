@@ -91,6 +91,25 @@ for b in src["books"]:
     })
 books.sort(key=lambda x: 0 if x["group"] == "full" else 1)
 
+# Books by family members, shown in their own section.
+FAMILY_BOOKS = [{
+    "id": "letter-to-the-girl",
+    "title": "A Letter to the Girl I Used to Be",
+    "subtitle": "",
+    "author": "Grace Stacks",
+    "kind": "Book draft",
+    "group": "family",
+    "description": ("Grace Stacks writes to her younger self: the girl who felt things deeply, doubted her worth "
+                    "and her faith, and carried more than she could explain. It is for anyone learning who they "
+                    "are while carrying a story heavier than they expected, and a reminder that what shaped you "
+                    "never disqualified you from being loved or heard."),
+    "purchase_url": "",
+}]
+for fb in FAMILY_BOOKS:
+    fb["cover"] = asset("img/books", fb["id"], ["jpg", "png"])
+    fb["sample"] = asset("samples", fb["id"], ["pdf"])
+    books.append(fb)
+
 by_id = {s["id"]: s for s in src["songs"]}
 songs = []
 for i, (sid, title, cid) in enumerate(SONGS):

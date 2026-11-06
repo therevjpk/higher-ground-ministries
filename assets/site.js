@@ -27,7 +27,8 @@
     if (b.purchase_url) actions += '<a href="' + esc(b.purchase_url) + '" target="_blank" rel="noopener">Buy</a>';
     return '<article class="book">' + cover(b, false, b.kind) +
       '<div><p class="kind">' + esc(b.kind) + '</p><h3>' + esc(b.title) + '</h3>' +
-      (b.subtitle ? '<p class="subtitle">' + esc(b.subtitle) + '</p>' : '') + '</div>' +
+      (b.subtitle ? '<p class="subtitle">' + esc(b.subtitle) + '</p>' : '') +
+      (b.author ? '<p class="byline">by ' + esc(b.author) + '</p>' : '') + '</div>' +
       (b.description ? '<p class="desc">' + esc(b.description) + '</p>' : '') +
       (actions ? '<div class="actions">' + actions + '</div>' : '') + '</article>';
   }
@@ -58,7 +59,7 @@
       var list = data.books.filter(function (b) {
         return mode === 'all' || mode === 'teaser' || b.group === mode;
       });
-      if (mode === 'teaser') list = list.filter(function (b) { return b.cover; }).slice(0, 6);
+      if (mode === 'teaser') list = list.filter(function (b) { return b.cover && b.group !== 'family'; }).slice(0, 6);
       el.innerHTML = list.map(book).join('');
     });
     document.querySelectorAll('[data-songs]').forEach(function (el) {
