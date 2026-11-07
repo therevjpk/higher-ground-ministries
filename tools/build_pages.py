@@ -219,9 +219,12 @@ page("music.html", "We Will Overcome",
 <main id="main">
 <section class="band">
   <div class="wrap">
-    <div class="intro-block">
-      <p class="eyebrow">About the album</p>
+    <div class="intro-block album">
+      <div class="album-art">
+        <img src="img/album-we-will-overcome.jpg" alt="We Will Overcome album cover" width="1200" height="1200">
+      </div>
       <div class="intro-text">
+        <p class="eyebrow">About the album</p>
         <p><em>We Will Overcome</em> is a collection of songs born out of thirty years of living, losing, and holding on. Rooted in Scripture and carried by gospel, country, and Southern rock with strong vocal harmony, it moves from bold declarations of victory through the blood of the Lamb (<em>We Will Overcome</em>, <em>More Than Conquerors</em>, <em>I Am a Soldier</em>) to quiet prayers for God to break up the hard ground of the heart (<em>Fallow Ground</em>, <em>Closer to Your Throne</em>).</p>
         <p>It walks the prodigal road home in <em>Back Home</em> and <em>Porch Light On</em>, sits with grief and the hope of heaven in <em>Angels Wings</em> and <em>I Hope You&rsquo;re There</em>, and celebrates the simple gift of love and life in <em>Sunrise</em> and <em>Sounds Like Livin&rsquo;</em>. Through it all runs one message: whatever you&rsquo;ve been through, you can still rise. Through Jesus, we will overcome.</p>
         <p class="note">Each song has a one-minute preview.</p>
