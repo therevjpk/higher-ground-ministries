@@ -194,13 +194,12 @@ page("books.html", "Books by John P. Kennon",
     <h2 class="group-title">Booklets &amp; studies</h2>
     <div class="books shelf" data-books="short"></div>
     <h2 class="group-title">From the family</h2>
-    <div class="family">
-      <div class="books" data-books="family"></div>
-      <div class="family-intro">
-        <p class="eyebrow">Bro. John&rsquo;s daughter</p>
-        <h2>Grace Stacks</h2>
-        <p>Grace wrote her own book: a letter to her younger self about loss, faith, and finding her way back to hope. We are proud to share it here.</p>
-      </div>
+    <div class="family-intro">
+      <p class="eyebrow">Bro. John&rsquo;s daughter</p>
+      <h2>Grace Stacks</h2>
+      <p>Grace has written two works of her own: a letter to her younger self about loss, faith, and finding her way back to hope, and a hand-lettered devotional of Scripture, prayers, and notes of faith. We are proud to share them here.</p>
+    </div>
+    <div class="books shelf family-books" data-books="family"></div>
     </div>
   </div>
 </section>

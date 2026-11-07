@@ -112,6 +112,16 @@ FAMILY_BOOKS = [{
                     "never disqualified you from being loved or heard."),
     "purchase_url": "",
 }]
+FAMILY_BOOKS.append({
+    "id": "graces-devotional",
+    "title": "Grace’s Devotional",
+    "subtitle": "Scripture, prayers, and notes of faith",
+    "author": "Grace Stacks",
+    "kind": "Devotional journal",
+    "group": "family",
+    "description": "Some of the truest words about faith are written in pencil. Grace’s Devotional is Grace Stacks’ own notebook of walking with Jesus through everyday life, kept page by page with hand-lettered headings, colored-pencil hearts, drawings, and the Scriptures that carried her.\n\nInside are forty-nine short entries on the things young believers really face: friendship and gossip, social media, overthinking, comparing yourself, regrets, worry, and waiting on God. Each pairs a verse with her own reflection or prayer, like the reminder that “God isn’t delaying you. God is preparing you.” Read slowly. Keep your Bible nearby. Leave room to pray.",
+    "purchase_url": "",
+})
 for fb in FAMILY_BOOKS:
     fb["cover"] = asset("img/books", fb["id"], ["jpg", "png"])
     fb["sample"] = asset("samples", fb["id"], ["pdf"])

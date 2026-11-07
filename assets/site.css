@@ -100,7 +100,7 @@ a{color:inherit}
 .book .subtitle{font-style:italic;color:var(--muted);font-size:.98rem;margin-top:2px}
 .book .byline{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-top:6px}
 .family{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:start}
-.family-intro{display:grid;gap:12px;max-width:38rem;color:var(--muted)}
+.family-intro{display:grid;gap:12px;max-width:42rem;color:var(--muted);margin-bottom:32px}
 .family-intro h2{font-size:clamp(2rem,4.5vw,3rem);text-transform:uppercase;color:var(--ink)}
 @media (max-width:760px){.family{grid-template-columns:1fr}}
 .book .desc{display:grid;gap:10px;font-size:.98rem;color:var(--muted);line-height:1.65}
