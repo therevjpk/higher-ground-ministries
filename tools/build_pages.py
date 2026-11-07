@@ -196,7 +196,7 @@ page("books.html", "Books by John P. Kennon",
         <blockquote>
           <p>Before the accident&hellip; I had a vision during prayer. A vase. Shattered.</p>
           <p>But in the vision, the Lord did something I didn&rsquo;t expect. He picked up every piece. He didn&rsquo;t discard the broken. And then I heard it in my spirit: &ldquo;I can make it better than it was before.&rdquo;</p>
-          <p>At the time, I had no idea what it meant. I taught on this in our adult Sunday school, a lesson I will never forget: the blessing is in the brokenness. But on June 13, when Loren left this world&hellip; I knew. The vase was us.</p>
+          <p>At the time, I had no idea what it meant. I taught on this in our adult Sunday school, a lesson I will never forget: the blessing is in the brokenness. But on June 14, when Loren left this world&hellip; I knew. The vase was us.</p>
           <p>He doesn&rsquo;t always prevent the breaking. But He never wastes the pieces.</p>
         </blockquote>
         <p class="sig">Bro. John Kennon</p>
