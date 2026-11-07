@@ -189,6 +189,25 @@ page("books.html", "Books by John P. Kennon",
         <p class="note">These works are being prepared for publication. Read a sample from each one while the full editions are finished.</p>
       </div>
     </div>
+    <section class="vase" aria-labelledby="vase-h">
+      <div class="vase-text">
+        <p class="eyebrow">From <em>Untimely</em> &middot; Chapter 11</p>
+        <h2 id="vase-h">The Shattered Vase</h2>
+        <blockquote>
+          <p>Before the accident&hellip; I had a vision during prayer. A vase. Shattered.</p>
+          <p>But in the vision, the Lord did something I didn&rsquo;t expect. He picked up every piece. He didn&rsquo;t discard the broken. And then I heard it in my spirit: &ldquo;I can make it better than it was before.&rdquo;</p>
+          <p>At the time, I had no idea what it meant. I taught on this in our adult Sunday school, a lesson I will never forget: the blessing is in the brokenness. But on June 13, when Loren left this world&hellip; I knew. The vase was us.</p>
+          <p>He doesn&rsquo;t always prevent the breaking. But He never wastes the pieces.</p>
+        </blockquote>
+        <p class="sig">Bro. John Kennon</p>
+      </div>
+      <ol class="vase-panels">
+        <li><img src="img/vase/vase-1.jpg" alt="A family gathered happily around a painted vase" loading="lazy"><span>Our family. Our hearts. Our plans.</span></li>
+        <li><img src="img/vase/vase-2.jpg" alt="The vase lies shattered on the floor as the family grieves" loading="lazy"><span>Shattered. But not thrown away.</span></li>
+        <li><img src="img/vase/vase-3.jpg" alt="A hand of light reaches down and the vase glows through its cracks" loading="lazy"><span>He picked up every piece.</span></li>
+        <li><img src="img/vase/vase-4.jpg" alt="The vase restored, the family smiling around it" loading="lazy"><span>&ldquo;I can make it better than it was before.&rdquo;</span></li>
+      </ol>
+    </section>
     <h2 class="group-title">Books</h2>
     <div class="books shelf" data-books="full"></div>
     <h2 class="group-title">Booklets &amp; studies</h2>
