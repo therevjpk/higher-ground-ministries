@@ -24,12 +24,12 @@ FULL_KINDS = {"Book draft", "Devotional draft", "Unified manuscript"}
 # Songs: finished recordings from the "We Will Overcome SB Album" folder, in this order.
 SONGS = [
     # (site id, display title, catalog id or None)
+    ("from-trouble-to-testimony", "From Trouble to Testimony", "from-trouble-to-testimony"),
     ("higher-ground", "Higher Ground", "higher-ground"),
     ("we-will-overcome", "We Will Overcome", "we-will-overcome"),
     ("still-i-rise", "Still I Rise", "still-i-rise"),
     ("living-by-faith", "Living by Faith", "living-by-faith"),
     ("a-beautiful-redemption", "A Beautiful Redemption", "a-beautiful-redemption"),
-    ("from-trouble-to-testimony", "From Trouble to Testimony", "from-trouble-to-testimony"),
     ("more-than-conquerors", "More Than Conquerors", "more-than-conquerors"),
     ("let-the-redeemed-say-so", "Let the Redeemed Say So", "let-the-redeemed-say-so"),
     ("ive-been-redeemed", "I’ve Been Redeemed", "ive-been-redeemed"),

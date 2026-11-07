@@ -273,9 +273,9 @@
    "kind": "Book draft",
    "group": "family",
    "description": "Grace Stacks writes to her younger self: the girl who felt things deeply, doubted her worth and her faith, and carried more than she could explain. It is for anyone learning who they are while carrying a story heavier than they expected, and a reminder that what shaped you never disqualified you from being loved or heard.",
+   "purchase_url": "",
    "cover": "img/books/letter-to-the-girl.jpg",
-   "sample": "samples/letter-to-the-girl.pdf",
-   "purchase_url": ""
+   "sample": "samples/letter-to-the-girl.pdf"
   },
   {
    "id": "graces-devotional",
@@ -285,12 +285,23 @@
    "kind": "Devotional journal",
    "group": "family",
    "description": "Some of the truest words about faith are written in pencil. Grace’s Devotional is Grace Stacks’ own notebook of walking with Jesus through everyday life, kept page by page with hand-lettered headings, colored-pencil hearts, drawings, and the Scriptures that carried her.\n\nInside are forty-nine short entries on the things young believers really face: friendship and gossip, social media, overthinking, comparing yourself, regrets, worry, and waiting on God. Each pairs a verse with her own reflection or prayer, like the reminder that “God isn’t delaying you. God is preparing you.” Read slowly. Keep your Bible nearby. Leave room to pray.",
+   "purchase_url": "",
    "cover": "img/books/graces-devotional.jpg",
-   "sample": "samples/graces-devotional.pdf",
-   "purchase_url": ""
+   "sample": "samples/graces-devotional.pdf"
   }
  ],
  "songs": [
+  {
+   "id": "from-trouble-to-testimony",
+   "title": "From Trouble to Testimony",
+   "description": "A declaration of faith formed through pressure and waiting, tracing the road from struggle to a testimony of what God has done.",
+   "credit": "",
+   "cover": "img/songs/from-trouble-to-testimony.jpg",
+   "preview": "audio/from-trouble-to-testimony.mp3",
+   "featured": true,
+   "listen_url": "",
+   "purchase_url": ""
+  },
   {
    "id": "higher-ground",
    "title": "Higher Ground",
@@ -298,7 +309,7 @@
    "credit": "",
    "cover": "img/songs/higher-ground.jpg",
    "preview": "audio/higher-ground.mp3",
-   "featured": true,
+   "featured": false,
    "listen_url": "",
    "purchase_url": ""
   },
@@ -342,17 +353,6 @@
    "credit": "",
    "cover": "img/songs/a-beautiful-redemption.jpg",
    "preview": "audio/a-beautiful-redemption.mp3",
-   "featured": false,
-   "listen_url": "",
-   "purchase_url": ""
-  },
-  {
-   "id": "from-trouble-to-testimony",
-   "title": "From Trouble to Testimony",
-   "description": "A declaration of faith formed through pressure and waiting, tracing the road from struggle to a testimony of what God has done.",
-   "credit": "",
-   "cover": "img/songs/from-trouble-to-testimony.jpg",
-   "preview": "audio/from-trouble-to-testimony.mp3",
    "featured": false,
    "listen_url": "",
    "purchase_url": ""
