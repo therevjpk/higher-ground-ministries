@@ -134,7 +134,7 @@ page("index.html", "Higher Ground Ministries",
   <div class="wrap">
     <div class="head-row">
       <div class="head">
-        <p class="eyebrow">The album &middot; John Kennon</p>
+        <p class="eyebrow">The album &middot; John P. Kennon</p>
         <h2 id="music-h">We Will Overcome</h2>
         <p><em>We Will Overcome</em> is a gospel album with a Southern road under it: songs of victory through the blood of the Lamb, written for anyone fighting their way from trouble to testimony.</p>
       </div>
@@ -207,10 +207,10 @@ page("books.html", "Books by John P. Kennon",
 </main>""")
 
 page("music.html", "We Will Overcome",
-     "We Will Overcome, the album by John Kennon: original gospel, country and Southern rock songs. Listen to previews.", f"""
+     "We Will Overcome, the album by John P. Kennon: original gospel, country and Southern rock songs. Listen to previews.", f"""
 <header class="hero page-hero">
   <div class="wrap">
-    <p class="sub">The album &middot; John Kennon</p>
+    <p class="sub">The album &middot; John P. Kennon</p>
     <h1>We Will <em>Overcome</em></h1>
     <p class="lead"><em>We Will Overcome</em> is a gospel album with a Southern road under it: songs of victory through the blood of the Lamb, written for anyone fighting their way from trouble to testimony.</p>
   </div>
