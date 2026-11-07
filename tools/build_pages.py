@@ -131,7 +131,7 @@ page("index.html", "Higher Ground Ministries",
       <div class="head">
         <p class="eyebrow">The album &middot; John Kennon</p>
         <h2 id="music-h">We Will Overcome</h2>
-        <p>Gospel with a Southern road under it: Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift.</p>
+        <p><em>We Will Overcome</em> is a gospel album with a Southern road under it: songs of victory through the blood of the Lamb, written for anyone fighting their way from trouble to testimony.</p>
       </div>
       <a class="more" href="music.html">Hear the album</a>
     </div>
@@ -145,7 +145,7 @@ page("index.html", "Higher Ground Ministries",
       <div class="head">
         <p class="eyebrow">Books &middot; John P. Kennon</p>
         <h2 id="books-h">Written from the valley floor</h2>
-        <p>Scripture, testimony, and the kind of family-table stories that teach you something on the way home.</p>
+        <p>Books, devotionals, and teaching studies by John P. Kennon: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
       </div>
       <a class="more" href="books.html">All books</a>
     </div>
@@ -169,13 +169,21 @@ page("books.html", "Books by John P. Kennon",
   <div class="wrap">
     <p class="sub">Books &middot; John P. Kennon</p>
     <h1>Written from <em>the valley floor</em></h1>
-    <p class="lead">These works are being prepared for publication. Read a sample from each one while the full editions are finished.</p>
+    <p class="lead">Books, devotionals, and teaching studies by John P. Kennon: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
   </div>
   {RIDGES}
 </header>
 <main id="main">
 <section class="band">
   <div class="wrap">
+    <div class="intro-block">
+      <p class="eyebrow">About the books</p>
+      <div class="intro-text">
+        <p>These books come from the same place as the songs: the pulpit, the prayer room, and the hard seasons in between. The full-length works range from <em>What Happened After the Cross?</em>, which follows the gospel from Calvary into the conversion accounts of Acts, to <em>Untimely</em>, an honest account of a family&rsquo;s journey through sudden loss, grief, and forgiveness. Alongside them are a 52-week devotional, <em>A Vision of the Harvest</em>, and journeys through Exodus, the story of Balaam, and Israel&rsquo;s kings.</p>
+        <p>The booklets and studies were written for the congregation and the Sunday school class: teaching on prayer, baptism in Jesus&rsquo; name, the continuing work of the Holy Ghost, marriage, and learning to trust again. Each one opens the Scripture plainly, tells the truth about brokenness, and points to the same God who still restores, still fills, and still speaks.</p>
+        <p class="note">These works are being prepared for publication. Read a sample from each one while the full editions are finished.</p>
+      </div>
+    </div>
     <h2 class="group-title">Books</h2>
     <div class="books" data-books="full"></div>
     <h2 class="group-title">Booklets &amp; studies</h2>
@@ -199,13 +207,21 @@ page("music.html", "We Will Overcome",
   <div class="wrap">
     <p class="sub">The album &middot; John Kennon</p>
     <h1>We Will <em>Overcome</em></h1>
-    <p class="lead">Gospel with a Southern road under it: Scripture-rooted lyrics, three-part harmony, and a band that knows when to lift. Each song has a one-minute preview.</p>
+    <p class="lead"><em>We Will Overcome</em> is a gospel album with a Southern road under it: songs of victory through the blood of the Lamb, written for anyone fighting their way from trouble to testimony.</p>
   </div>
   {RIDGES}
 </header>
 <main id="main">
 <section class="band">
   <div class="wrap">
+    <div class="intro-block">
+      <p class="eyebrow">About the album</p>
+      <div class="intro-text">
+        <p><em>We Will Overcome</em> is a collection of songs born out of thirty years of living, losing, and holding on. Rooted in Scripture and carried by gospel, country, and Southern rock with strong vocal harmony, it moves from bold declarations of victory through the blood of the Lamb (<em>We Will Overcome</em>, <em>More Than Conquerors</em>, <em>I Am a Soldier</em>) to quiet prayers for God to break up the hard ground of the heart (<em>Fallow Ground</em>, <em>Closer to Your Throne</em>).</p>
+        <p>It walks the prodigal road home in <em>Back Home</em> and <em>Porch Light On</em>, sits with grief and the hope of heaven in <em>Angels Wings</em> and <em>I Hope You&rsquo;re There</em>, and celebrates the simple gift of love and life in <em>Sunrise</em> and <em>Sounds Like Livin&rsquo;</em>. Through it all runs one message: whatever you&rsquo;ve been through, you can still rise. Through Jesus, we will overcome.</p>
+        <p class="note">Each song has a one-minute preview.</p>
+      </div>
+    </div>
     <div data-songs="featured"></div>
     <h2 class="group-title">We Will Overcome &middot; Full track list</h2>
     <ul class="songs" data-songs="list"></ul>
