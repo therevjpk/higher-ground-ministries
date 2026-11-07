@@ -89,6 +89,10 @@ for b in src["books"]:
         "sample": asset("samples", b["id"], ["pdf"]),
         "purchase_url": "",
     })
+# Back-cover copy and subtitles written from each manuscript (tools/book_copy.json)
+COPY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "book_copy.json")))
+for b in books:
+    b.update(COPY.get(b["id"], {}))
 books.sort(key=lambda x: 0 if x["group"] == "full" else 1)
 
 # Books by family members, shown in their own section.
