@@ -51,6 +51,8 @@ SONGS = [
     ("the-one-who-stayed", "The One Who Stayed", "the-one-who-stayed"),
     ("wrong-door-right-man", "Wrong Door, Right Man", "wrong-door-right-man"),
     ("keep-on-walking", "Keep On Walking", "keep-on-walking"),
+    ("just-being-dad-to-you", "Just Being Dad to You", None),
+    ("you-are-with-me", "You Are With Me", None),
     ("in-my-fathers-house-duet", "In My Father’s House (Duet)", None),
     ("in-my-fathers-house-modern", "In My Father’s House (Modern)", None),
     ("lean-on-the-lord", "Lean on the Lord", None),
