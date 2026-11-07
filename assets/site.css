@@ -143,6 +143,18 @@ audio{width:100%;max-width:100%;height:40px;display:block}
 .album-art img{width:100%;height:auto;aspect-ratio:1/1;border-radius:3px;box-shadow:0 22px 44px -22px rgba(20,26,43,.65)}
 @media (max-width:760px){.intro-block.album{grid-template-columns:1fr}.album-art{max-width:340px}}
 
+/* the shattered vase (Books page) */
+.vase{display:grid;gap:32px;margin-bottom:64px;padding-bottom:56px;border-bottom:1px solid var(--line)}
+.vase-text{display:grid;gap:14px;max-width:42rem}
+.vase-text h2{font-size:clamp(2.2rem,5vw,3.4rem);text-transform:uppercase}
+.vase blockquote{margin:0;padding-left:clamp(16px,3vw,28px);border-left:3px solid var(--gold);display:grid;gap:12px;font-size:1.12rem;line-height:1.7}
+.vase blockquote p:last-child{font-style:italic}
+.vase-panels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.vase-panels li{display:grid;gap:10px;align-content:start}
+.vase-panels img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:2px;box-shadow:0 14px 28px -18px rgba(20,26,43,.6)}
+.vase-panels span{font-size:.95rem;font-style:italic;color:var(--muted)}
+@media (max-width:760px){.vase-panels{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 /* dedication */
 .dedication-body{display:grid;gap:16px;max-width:40rem;padding-left:clamp(16px,3vw,32px);border-left:3px solid var(--gold)}
 .dedication-body h2{font-size:clamp(2.2rem,5vw,3.4rem);text-transform:uppercase}
