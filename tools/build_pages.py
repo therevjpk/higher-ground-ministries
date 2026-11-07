@@ -159,7 +159,7 @@ page("index.html", "Higher Ground Ministries",
 </section>
 <section class="band" aria-labelledby="about-h">
   <div class="wrap about">
-    <div class="portrait">Photo of<br>Bro. John Kennon</div>
+    <img class="portrait-img" src="img/john-kennon.jpg" alt="Bro. John Kennon" width="640" height="800">
     <div class="about-body">
       {ABOUT_HOME}
     </div>
@@ -239,7 +239,7 @@ page("about.html", "About Bro. John Kennon",
 <main id="main">
 <section class="band" aria-labelledby="about-h">
   <div class="wrap about">
-    <div class="portrait">Photo of<br>Bro. John Kennon</div>
+    <img class="portrait-img" src="img/john-kennon.jpg" alt="Bro. John Kennon" width="640" height="800">
     <div class="about-body">
       {ABOUT_BODY}
       <p><a class="btn line" href="index.html#contact">Get in touch</a></p>
