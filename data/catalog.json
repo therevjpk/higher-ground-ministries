@@ -566,6 +566,39 @@
    "purchase_url": ""
   },
   {
+   "id": "keep-on-walking",
+   "title": "Keep On Walking",
+   "description": "A gritty encouragement to keep moving forward in faith, one step at a time, even when the road is hard.",
+   "credit": "",
+   "cover": "img/songs/keep-on-walking.jpg",
+   "preview": "audio/keep-on-walking.mp3",
+   "featured": false,
+   "listen_url": "",
+   "purchase_url": ""
+  },
+  {
+   "id": "just-being-dad-to-you",
+   "title": "Just Being Dad to You",
+   "description": "",
+   "credit": "",
+   "cover": null,
+   "preview": "audio/just-being-dad-to-you.mp3",
+   "featured": false,
+   "listen_url": "",
+   "purchase_url": ""
+  },
+  {
+   "id": "you-are-with-me",
+   "title": "You Are With Me",
+   "description": "",
+   "credit": "",
+   "cover": null,
+   "preview": "audio/you-are-with-me.mp3",
+   "featured": false,
+   "listen_url": "",
+   "purchase_url": ""
+  },
+  {
    "id": "in-my-fathers-house-duet",
    "title": "In My Father’s House (Duet)",
    "description": "",
