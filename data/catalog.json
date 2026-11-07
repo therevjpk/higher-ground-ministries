@@ -566,6 +566,17 @@
    "purchase_url": ""
   },
   {
+   "id": "keep-on-walking",
+   "title": "Keep On Walking",
+   "description": "A gritty encouragement to keep moving forward in faith, one step at a time, even when the road is hard.",
+   "credit": "",
+   "cover": "img/songs/keep-on-walking.jpg",
+   "preview": "audio/keep-on-walking.mp3",
+   "featured": false,
+   "listen_url": "",
+   "purchase_url": ""
+  },
+  {
    "id": "in-my-fathers-house-duet",
    "title": "In My Father’s House (Duet)",
    "description": "",
