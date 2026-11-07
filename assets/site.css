@@ -166,6 +166,18 @@ audio{width:100%;max-width:100%;height:40px;display:block}
 .gallery img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:2px;box-shadow:0 14px 28px -18px rgba(20,26,43,.55)}
 .gallery figcaption{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 
+/* about scrapbook */
+.scrapbook{margin-top:72px;display:grid;gap:12px}
+.scrapbook .group-title{margin:0}
+.scrap-lead{max-width:38rem;color:var(--muted)}
+.scrap-pages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin-top:12px}
+.scrap-pages figure{margin:0;display:grid;gap:10px}
+.scrap-pages a{display:block;background:#fff;padding:8px;border-radius:2px;box-shadow:0 14px 28px -18px rgba(20,26,43,.55);transition:transform .2s}
+.scrap-pages a:hover{transform:translateY(-3px) rotate(-.4deg)}
+.scrap-pages img{display:block;width:100%;height:auto}
+.scrap-pages figcaption{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:760px){.scrap-pages{grid-template-columns:minmax(0,1fr)}}
+
 /* contact */
 .contact{background:var(--navy);color:var(--on-navy)}
 .contact .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
