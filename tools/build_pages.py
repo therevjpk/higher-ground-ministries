@@ -91,12 +91,17 @@ CONTACT = """<section class="band contact" id="contact" aria-labelledby="contact
   </div>
 </section>"""
 
-ABOUT_BODY = """<p class="eyebrow">About</p>
-      <h2 id="about-h">Preacher. Writer. Songwriter.</h2>
-      <p>Bro. John Kennon is a United Pentecostal minister who writes the way he preaches: straight from Scripture, honest about the hard places, and certain that God rebuilds what life tears down.</p>
-      <p>His songs pull from gospel, country, and Southern rock, built on strong vocal harmony. His books carry the same message in a quieter voice, through testimony and the everyday moments where faith gets tested.</p>
+ABOUT_INTRO = """<p class="eyebrow">About</p>
+      <h2 id="about-h">Minister. Musician. Writer.</h2>
+      <p>Bro. John Kennon is a local minister who has spent more than thirty years writing the way he preaches: straight from Scripture, honest about the hard places, and certain that God rebuilds what life tears down.</p>"""
+ABOUT_MINISTRY = """<p>At the Apostolic Church of Fort Worth, he serves in the music ministry as a multi-instrumentalist and singer, teaches adult Sunday school, and is part of the livestream ministry. He also ministers in nursing homes, helps other local churches, and preaches when invited.</p>
+      <p>His songs pull from gospel, country, and Southern rock, built on strong vocal harmony. His books carry the same message in a quieter voice, through testimony and the everyday moments where faith gets tested.</p>"""
+ABOUT_FAMILY = """<p>At home, he is blessed with a beautiful wife, four lovely daughters, three sons, two amazing sons-in-law, two amazing daughters-in-law, and a five-year-old grandson.</p>"""
+ABOUT_BODY = ABOUT_INTRO + "\n      " + ABOUT_MINISTRY + "\n      " + ABOUT_FAMILY + """
       <p>Higher Ground Ministries is the home for all of it.</p>
       <p class="sig">Bro. John Kennon</p>"""
+ABOUT_HOME = ABOUT_INTRO + "\n      " + ABOUT_FAMILY + """
+      <p><a class="more" href="about.html">More about Bro. John</a></p>"""
 
 page("index.html", "Higher Ground Ministries",
      "Books and original gospel music from Bro. John Kennon and Higher Ground Ministries.", f"""
@@ -156,7 +161,7 @@ page("index.html", "Higher Ground Ministries",
   <div class="wrap about">
     <div class="portrait">Photo of<br>Bro. John Kennon</div>
     <div class="about-body">
-      {ABOUT_BODY}
+      {ABOUT_HOME}
     </div>
   </div>
 </section>
