@@ -29,7 +29,7 @@
       '<div><p class="kind">' + esc(b.kind) + '</p><h3>' + esc(b.title) + '</h3>' +
       (b.subtitle ? '<p class="subtitle">' + esc(b.subtitle) + '</p>' : '') +
       (b.author ? '<p class="byline">by ' + esc(b.author) + '</p>' : '') + '</div>' +
-      (b.description ? '<p class="desc">' + esc(b.description) + '</p>' : '') +
+      (b.description ? '<div class="desc">' + b.description.split(/\n\s*\n/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' : '') +
       (actions ? '<div class="actions">' + actions + '</div>' : '') + '</article>';
   }
 

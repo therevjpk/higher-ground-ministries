@@ -103,7 +103,13 @@ a{color:inherit}
 .family-intro{display:grid;gap:12px;max-width:38rem;color:var(--muted)}
 .family-intro h2{font-size:clamp(2rem,4.5vw,3rem);text-transform:uppercase;color:var(--ink)}
 @media (max-width:760px){.family{grid-template-columns:1fr}}
-.book p.desc{font-size:.97rem;color:var(--muted)}
+.book .desc{display:grid;gap:10px;font-size:.98rem;color:var(--muted);line-height:1.65}
+.book .desc p:first-child{color:var(--ink);font-style:italic}
+/* Books page: cover beside text so longer copy reads well */
+.books.shelf{grid-template-columns:repeat(auto-fill,minmax(min(100%,520px),1fr));gap:48px 40px}
+.books.shelf .book{grid-template-columns:minmax(0,150px) minmax(0,1fr);gap:8px 24px;align-items:start}
+.books.shelf .book>.cover{grid-row:span 3}
+@media (max-width:560px){.books.shelf .book{grid-template-columns:minmax(0,110px) minmax(0,1fr)}.books.shelf .book .desc,.books.shelf .book .actions{grid-column:1/-1}}
 .book .actions{display:flex;gap:10px;flex-wrap:wrap}
 .book .actions a{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);text-decoration:none;border:1.5px solid var(--gold);padding:8px 12px;border-radius:2px}
 .book .actions a:hover{background:var(--gold-soft)}
