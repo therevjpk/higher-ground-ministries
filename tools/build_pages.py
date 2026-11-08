@@ -24,6 +24,8 @@ def page(file, title, description, body):
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>/* myhgm.church is the short name: send visitors to the main address */
+if (/(^|\\.)myhgm\\.church$/i.test(location.hostname)) location.replace("https://highergroundministries.church" + location.pathname + location.search + location.hash);</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{description}">
