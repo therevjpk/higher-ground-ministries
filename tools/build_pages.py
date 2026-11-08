@@ -172,12 +172,20 @@ page("index.html", "Higher Ground Ministries",
         </div>
       </div>
     </div>
-    <ul class="study-slides" aria-label="Slides from the lesson">
+    <div class="study-more">
+      <figure class="study-video">
+        <video controls playsinline preload="none" poster="img/studies/true-repentance-poster.jpg" width="720" height="1280">
+          <source src="video/true-repentance.mp4" type="video/mp4">
+        </video>
+        <figcaption><b>How true repentance changes direction</b><span>Confession, contrition, conversion &middot; 1 minute</span></figcaption>
+      </figure>
+      <ul class="study-slides" aria-label="Slides from the lesson">
       <li><img src="img/studies/ns1-2-02.jpg" alt="Slide: goal of the lesson" width="960" height="540" loading="lazy"></li>
       <li><img src="img/studies/ns1-4-04.jpg" alt="Slide: the solution, the gospel" width="960" height="540" loading="lazy"></li>
       <li><img src="img/studies/ns1-12-12.jpg" alt="Slide: baptism" width="960" height="540" loading="lazy"></li>
       <li><img src="img/studies/ns1-15-15.jpg" alt="Slide: salvation past, present, future" width="960" height="540" loading="lazy"></li>
-    </ul>
+      </ul>
+    </div>
   </div>
 </section>
 <section class="band" aria-labelledby="about-h">
