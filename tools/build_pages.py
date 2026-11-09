@@ -159,18 +159,19 @@ page("index.html", "Higher Ground Ministries",
     <div class="books compact" data-books="teaser"></div>
   </div>
 </section>
-<section class="band alt study" aria-labelledby="study-h">
+<section class="band alt study" id="study" aria-labelledby="study-h">
   <div class="wrap">
     <div class="study-grid">
-      <a class="study-cover" href="studies/next-steps-1-what-must-i-do-to-be-saved.pdf" target="_blank" rel="noopener"><img src="img/studies/ns1-1-01.jpg" alt="Title slide: What Must I Do to Be Saved? Next Steps Lesson 1" width="960" height="540" loading="lazy"></a>
+      <a class="study-cover" href="studies/next-steps-1-what-must-i-do-to-be-saved.pdf" target="_blank" rel="noopener"><img src="img/studies/ns1-1-01.jpg" alt="Title slide: What Must I Do to Be Saved? A companion study to What Happened After the Cross?" width="960" height="540" loading="lazy"></a>
       <div class="study-text">
-        <p class="eyebrow">Bible study &middot; Next Steps, Lesson 1</p>
+        <p class="eyebrow">Bible study &middot; A companion to <i>What Happened After the Cross?</i></p>
         <h2 id="study-h">What Must I Do to Be Saved?</h2>
         <p>A doctrinal overview from the Book of Acts. This lesson starts with the human condition and the gospel of the death, burial, and resurrection of Jesus, then walks through grace and faith, repentance, baptism in the name of Jesus, and the gift of the Holy Ghost, the plan Peter preached on the Day of Pentecost.</p>
         <p>Open it on your own, or teach it to a small group or new believer. It is also available in Spanish.</p>
         <div class="study-actions">
           <a class="btn" href="studies/next-steps-1-what-must-i-do-to-be-saved.pdf" target="_blank" rel="noopener">Open the lesson</a>
           <a class="btn line" href="studies/next-steps-1-que-debo-hacer-para-ser-salvo.pdf" target="_blank" rel="noopener" lang="es">En espa&ntilde;ol</a>
+          <a class="btn line" href="books.html#book-after-the-cross">Read the book</a>
         </div>
       </div>
     </div>

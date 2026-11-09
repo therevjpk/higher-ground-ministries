@@ -24,8 +24,9 @@
   function book(b) {
     var actions = '';
     if (b.sample) actions += '<a href="' + esc(b.sample) + '" target="_blank" rel="noopener">Read a sample</a>';
+    if (b.study) actions += '<a href="' + esc(b.study.url) + '">' + esc(b.study.label) + '</a>';
     if (b.purchase_url) actions += '<a href="' + esc(b.purchase_url) + '" target="_blank" rel="noopener">Buy</a>';
-    return '<article class="book">' + cover(b, false, b.kind) +
+    return '<article class="book" id="book-' + esc(b.id) + '">' + cover(b, false, b.kind) +
       '<div><p class="kind">' + esc(b.kind) + '</p><h3>' + esc(b.title) + '</h3>' +
       (b.subtitle ? '<p class="subtitle">' + esc(b.subtitle) + '</p>' : '') +
       (b.author ? '<p class="byline">by ' + esc(b.author) + '</p>' : '') + '</div>' +
@@ -73,6 +74,8 @@
       if (mode === 'teaser') list = list.slice(0, 5);
       el.innerHTML = list.map(song).join('');
     });
+    // Books render after load, so jump to a linked book once it exists.
+    if (location.hash) { var target = document.getElementById(location.hash.slice(1)); if (target) target.scrollIntoView(); }
     // Only one preview plays at a time.
     document.addEventListener('play', function (e) {
       document.querySelectorAll('audio').forEach(function (a) { if (a !== e.target) a.pause(); });

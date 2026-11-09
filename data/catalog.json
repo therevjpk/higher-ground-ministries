@@ -10,7 +10,11 @@
    "description": "The apostles watched Jesus rise into a cloud. Days later a mighty rushing wind filled the Upper Room, tongues of fire rested on each of them, and the church was born. From that day one question followed the gospel from city to city: \"How then were you baptized?\"\n\nThis book walks through every baptism account in Acts, from Jerusalem to Samaria, the desert road, Damascus, Cornelius's house, a Philippian jail, Corinth, and Ephesus. Each chapter tells the story, sets out the Scripture, and adds historical context. Together they show one apostolic pattern of the new birth: repent, be baptized in the name of Jesus Christ, and receive the Holy Ghost, as believers did when they spoke in tongues. If you have ever wondered whether your baptism matches the Bible, this book asks you, \"in the most loving way possible.\"",
    "cover": "img/books/after-the-cross.jpg",
    "sample": "samples/after-the-cross.pdf",
-   "purchase_url": ""
+   "purchase_url": "",
+   "study": {
+    "label": "Companion Bible study",
+    "url": "index.html#study"
+   }
   },
   {
    "id": "conquering-leviathan",
