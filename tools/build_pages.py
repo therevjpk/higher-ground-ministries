@@ -53,7 +53,7 @@ if (/(^|\\.)myhgm\\.church$/i.test(location.hostname)) location.replace("https:/
   <div class="wrap">
     <span>&copy; 2026 Higher Ground Ministries</span>
     <span>highergroundministries.church</span>
-    <span>Bro. John Kennon &middot; John P. Kennon</span>
+    <span>Bro. John Kennon</span>
   </div>
 </footer>
 <script src="assets/site.js"></script>
@@ -136,7 +136,7 @@ page("index.html", "Higher Ground Ministries",
   <div class="wrap">
     <div class="head-row">
       <div class="head">
-        <p class="eyebrow">The album &middot; John P. Kennon</p>
+        <p class="eyebrow">The album</p>
         <h2 id="music-h">We Will Overcome</h2>
         <p><em>We Will Overcome</em> is a gospel album with a Southern road under it: songs of victory through the blood of the Lamb, written for anyone fighting their way from trouble to testimony.</p>
       </div>
@@ -150,9 +150,9 @@ page("index.html", "Higher Ground Ministries",
   <div class="wrap">
     <div class="head-row">
       <div class="head">
-        <p class="eyebrow">Books &middot; John P. Kennon</p>
+        <p class="eyebrow">Books</p>
         <h2 id="books-h">Written from the valley floor</h2>
-        <p>Books, devotionals, and teaching studies by John P. Kennon: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
+        <p>Books, devotionals, and teaching studies: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
       </div>
       <a class="more" href="books.html">All books</a>
     </div>
@@ -199,7 +199,7 @@ page("books.html", "Books by John P. Kennon",
   <div class="wrap">
     <p class="sub">Books &middot; John P. Kennon</p>
     <h1>Written from <em>the valley floor</em></h1>
-    <p class="lead">Books, devotionals, and teaching studies by John P. Kennon: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
+    <p class="lead">Books, devotionals, and teaching studies: Scripture opened plainly, testimony told honestly, and the apostolic faith of the Book of Acts lived out in everyday life.</p>
   </div>
   {RIDGES}
 </header>
