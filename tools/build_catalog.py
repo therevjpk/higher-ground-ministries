@@ -91,6 +91,7 @@ for b in src["books"]:
         "cover": asset("img/books", b["id"], ["jpg", "png"]),
         "sample": asset("samples", b["id"], ["pdf"]),
         "purchase_url": "",
+        **({"study": {"label": "Companion Bible study", "url": "index.html#study"}} if b["id"] == "after-the-cross" else {}),
     })
 # Back-cover copy and subtitles written from each manuscript (tools/book_copy.json)
 COPY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "book_copy.json")))
