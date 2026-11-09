@@ -63,8 +63,13 @@ SONGS = [
 # Catalog descriptions that are placeholders, not descriptions. Show nothing instead.
 PLACEHOLDER_DESCRIPTIONS = {"all-things", "i-got-something", "psalm-23", "when-he-steps-in",
                             "wrong-door-right-man", "the-one-who-stayed"}
+# One-line blurbs written from the song lyrics, for songs the private catalog doesn't describe.
+SONG_DESCRIPTIONS = {
+    "lean-on-the-lord": "A call to trust God with everything, great or small. Built on the promise of strength renewed on eagles' wings, it rises to a testimony: \u201cI leaned on the Lord, and He carried me through.\u201d",
+    "just-being-dad-to-you": "A country song about the everyday moments of fatherhood, from a back-door invitation to play to running beside a first bike ride, and the discovery that while a father was lifting his child, the child was lifting him too.",
+}
 SONG_CREDITS = {
-    "the-one-who-stayed": "Written and recorded by John P. Kennon · Also released by The Loners",
+    "the-one-who-stayed": "Also released by The Loners",
 }
 
 
@@ -133,6 +138,7 @@ songs = []
 for i, (sid, title, cid) in enumerate(SONGS):
     c = by_id.get(cid) if cid else None
     desc = "" if (not c or sid in PLACEHOLDER_DESCRIPTIONS) else c["description"]
+    desc = SONG_DESCRIPTIONS.get(sid, desc)
     songs.append({
         "id": sid,
         "title": title,
